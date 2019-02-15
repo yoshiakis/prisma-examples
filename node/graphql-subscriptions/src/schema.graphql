@@ -12,10 +12,6 @@ type Mutation {
   publish(id: ID!): Post
 }
 
-type Subscription {
-  posts: Post
-}
-
 type Post {
   id: ID!
   createdAt: DateTime!
