@@ -12,12 +12,6 @@ var models = [
 exports.Prisma = prisma_lib_1.makePrismaClientClass({
   typeDefs,
   models,
-  endpoint: ``,
+  endpoint: `http://localhost:4466`,
 })
 exports.prisma = new exports.Prisma()
-var models = [
-  {
-    name: 'Post',
-    embedded: false,
-  },
-]

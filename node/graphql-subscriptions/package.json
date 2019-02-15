@@ -7,6 +7,10 @@
     "prisma-client-lib": "1.26.6"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "prisma:deploy": "prisma deploy"
+  },
+  "devDependencies": {
+    "prisma": "^1.26.4"
   }
 }
